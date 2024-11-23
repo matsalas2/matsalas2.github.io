@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Nuestra esencia - NazKart</title>
-   <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - NazKart</title>
+    <link rel="stylesheet" href="styles-contacto.css">
 </head>
 <body>
-    
+
 <!-- Header Section -->
 <header>
 
@@ -76,56 +76,23 @@
     
     <button class="contact-btn" onclick="window.location.href='contacto.html'">Contacto</button>
 </header>
-    
 
-    <!-- Carrusel Section -->
-    <section class="carousel-container">
-        <!-- Carrusel de imágenes para escritorio -->
-        <div class="carousel-wrapper desktop-images">
-            <div class="carousel-slide">
-                <img src="images/index-images/grouped-image-1.jpg" alt="Equipo trabajando">
-            </div>
-            <div class="carousel-slide">
-                <img src="images/index-images/grouped-image-2.jpg" alt="Vehículo en construcción">
-            </div>
-            <div class="carousel-slide">
-                <img src="images/index-images/grouped-image-fondo-2.jpg" alt="Competencia BAJA SAE">
-            </div>
-        </div>
-        <!-- Imagen para móvil -->
-        <div class="mobile-single-image">
-            <img src="images/index-images/mobile-image-1.jpg">
-        </div>        
-        <!-- Texto y botón fijo encima -->
-        <div class="carousel-overlay">
-            <h1>Impulsados por la pasión y la innovación, construimos el futuro de la ingeniería, una pieza a la vez</h1>
-            <a href="nuestra_esencia.html" class="hero-button">Conoce más sobre nosotros</a>
-        </div>
-    </section>
-    
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-overlay">
+        <h1>Contáctanos</h1>
+    </div>
+</section>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 NazKart</p>
-        <p>Connect with us on social media</p>
-        <div class="social-links">
-            <!-- Social media icons -->
-        </div>
-    </footer>
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 NazKart</p>
+    <p>Connect with us on social media</p>
+    <div class="social-links">
+        <!-- Social media icons -->
+    </div>
+</footer>
 
-    <script>
-        function toggleMobileMenu() {
-            const menu = document.querySelector('.mobile-navbar');
-            menu.classList.toggle('active');
-        }
-        function toggleSubmenu(id) {
-            const submenu = document.getElementById(id);
-            if (submenu.style.display === "block") {
-                submenu.style.display = "none"; // Oculta el submenú
-            } else {
-                submenu.style.display = "block"; // Muestra el submenú
-            }
-        }
-    </script>
+<script src="script-contacto.js"></script>
 </body>
 </html>

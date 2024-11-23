@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Proyecto - NazKart</title>
+    <link rel="stylesheet" href="styles-detalles_proyecto.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+
+    <button class="mobile-menu-button" onclick="toggleMobileMenu()">☰</button>
+    <nav class="mobile-navbar">
+        <ul class="mobile-menu">
+            <li class="menu-item">
+                <a href="index.html">Inicio</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" onclick="toggleSubmenu('submenu-sobre-nosotros')">Sobre nosotros</a>
+                <ul id="submenu-sobre-nosotros" class="submenu">
+                    <li><a href="nuestra_esencia.html">Nuestra esencia</a></li>
+                    <li><a href="nuestro_equipo.html">Nuestro equipo</a></li>
+                </ul>
+            </li>
+            
+            <li class="menu-item">
+                <a href="detalles_proyecto.html">Detalles del Proyecto</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" onclick="toggleSubmenu('submenu-inversion-y-apoyo')">Inversión y Apoyo</a>
+                <ul id="submenu-inversion-y-apoyo" class="submenu">
+                    <li><a href="oportunidades_financiamiento.html">Sponsors</a></li>
+                    <li><a href="plan_gastos.html">Plan de Gastos e Incentivos</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="innovacion_sostenible.html">Innovación Sostenible</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="logo">
+        <img src="images/index-images/logo_white.png" alt="Team Logo" class="team-logo">
+        NazKart
+    </div>
+
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="index.html">Inicio</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" onclick="toggleSubmenu('submenu-sobre-nosotros')">Sobre nosotros</a>
+                <ul id="submenu-sobre-nosotros" class="submenu">
+                    <li><a href="nuestra_esencia.html">Nuestra esencia</a></li>
+                    <li><a href="nuestro_equipo.html">Nuestro equipo</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="detalles_proyecto.html">Detalles del Proyecto</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" onclick="toggleSubmenu('submenu-inversion-y-apoyo')">Inversión y Apoyo</a>
+                <ul id="submenu-inversion-y-apoyo" class="submenu">
+                    <li><a href="oportunidades_financiamiento.html">Sponsors</a></li>
+                    <li><a href="plan_gastos.html">Plan de Gastos e Incentivos</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="innovacion_sostenible.html">Innovación Sostenible</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <button class="contact-btn" onclick="window.location.href='contacto.html'">Contacto</button>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-overlay">
+        <h1>Detalles del Proyecto</h1>
+        <p>Descubre los detalles de nuestro proyecto y cómo buscamos llevar la ingeniería a nuevos límites</p>
+    </div>
+</section>
+
+<!-- Primera sección (Texto a la izquierda, Imagen a la derecha) -->
+<section class="baja-sae-section">
+    <div class="baja-sae-content">
+        <div class="baja-sae-text fade-in" data-order="1">
+            <h2>¿En qué consiste el Proyecto BAJA SAE?</h2>
+            <p>
+                El Proyecto BAJA SAE consiste en el diseño, construcción y pruebas de un vehículo off-road de un solo asiento, destinado a competir en el evento BAJA SAE. Este desafío de ingeniería reúne equipos de universidades de todo el mundo para crear vehículos capaces de soportar terrenos difíciles y pruebas rigurosas. El equipo debe diseñar el vehículo desde cero, considerando la eficiencia, seguridad y rendimiento en condiciones extremas.
+            </p>
+        </div>
+        <div class="baja-sae-image fade-in" data-order="2">
+            <img src="images/index-images/grouped-image-1.jpg" alt="Imagen de Baja SAE">
+        </div>
+    </div>
+</section>
+
+<!-- Segunda sección (Imagen a la izquierda, Texto a la derecha) -->
+<section class="baja-sae-section">
+    <div class="baja-sae-content">
+        <div class="baja-sae-image fade-in" data-order="2">
+            <img src="images/index-images/grouped-image-2.jpg" alt="Imagen de Agrupación Baja SAE">
+        </div>
+        <div class="baja-sae-text fade-in" data-order="1">
+            <h2>¿Cómo está planificado el desarrollo del proyecto?</h2>
+            <ul>
+                <li>El Equipo de Frenos selecciona y evalúa componentes, diseña el sistema hidráulico usando software CAD y ajusta la presión y respuesta del pedal en pruebas. Colabora con el equipo de suspensión y realiza pruebas térmicas para evaluar la disipación de calor.</li>
+                <li>El Equipo Electrónico y Control diseña el diagrama eléctrico, desarrolla un sistema de telemetría, integra sensores con el sistema CAN y configura la comunicación entre módulos electrónicos.</li>
+                <li>El Equipo de Chasis y Estructuras diseña el chasis, realiza simulaciones de resistencia, selecciona materiales y asegura la comodidad y seguridad del piloto, verificando la integración de componentes y realizando pruebas de resistencia.</li>
+                <li>El Equipo de Suspensión y Dirección diseña el sistema de suspensión, el sistema de dirección y realiza simulaciones y pruebas de estabilidad en pista.</li>
+                <li>El Equipo de Motor selecciona el motor adecuado, diseña el tren motriz, la transmisión y el sistema de refrigeración para mantener temperaturas óptimas.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Cuarta sección (Imagen a la izquierda, Texto a la derecha) -->
+<section class="baja-sae-section">
+    <div class="baja-sae-content reverse">
+        <div class="baja-sae-image fade-in" data-order="2">
+            <img src="images/index-images/grouped-image-2.jpg" alt="Imagen de Agrupación Baja SAE">
+        </div>
+        <div class="baja-sae-text fade-in" data-order="1">
+            <h2>¿Cuáles son los sistemas más importantes del vehículo?</h2>
+            <ul>
+                <li>Chasis: Proporciona estructura y seguridad, diseñado para resistir condiciones extremas.</li>
+                <li>Suspensión y dirección: Garantizan estabilidad y maniobrabilidad en terrenos difíciles.</li>
+                <li>Powertrain: Sistema de transmisión y motor que maximizan la eficiencia y la potencia.</li>
+                <li>Sistema de frenos: Proporciona seguridad con una frenada precisa y confiable.</li>
+                <li>Sistema electrónico: Integra sensores y monitoreo para optimizar el rendimiento del vehículo</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 NazKart</p>
+    <p>Connect with us on social media</p>
+    <div class="social-links">
+        <!-- Social media icons -->
+    </div>
+</footer>
+
+<script src="script-detalles_proyecto.js"></script>
+</body>
+</html>
